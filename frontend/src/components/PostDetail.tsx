@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Heart, MessageCircle, Send, Bookmark, X } from "lucide-react";
+import { Heart, Send, X } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
 import { translations } from "@/lib/translations";
 import { toast } from "sonner";

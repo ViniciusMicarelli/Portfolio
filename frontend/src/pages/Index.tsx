@@ -1,4 +1,4 @@
-import { Grid3X3, Bookmark, User } from "lucide-react";
+import { Grid3X3 } from "lucide-react";
 import ProfileHeader from "@/components/ProfileHeader";
 import StoryHighlights from "@/components/StoryHighlights";
 import PostGrid from "@/components/PostGrid";
@@ -28,7 +28,7 @@ const Index = () => {
       {/* Tab Bar */}
       <div className="mt-2 flex border-t border-border">
         <button className="flex flex-1 items-center justify-center gap-1 border-b-2 border-foreground py-3 text-foreground">
-          <Grid3X3 size={18}/>
+          <Grid3X3 size={18} />
         </button>
         {/* <button className="flex flex-1 items-center justify-center gap-1 py-3 text-muted-foreground">
           <Bookmark size={18} />
