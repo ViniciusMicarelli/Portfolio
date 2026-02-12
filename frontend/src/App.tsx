@@ -40,7 +40,7 @@ const App = () => (
       <LanguageProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/Portfolio">
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
           <AppContent />
         </BrowserRouter>
       </LanguageProvider>

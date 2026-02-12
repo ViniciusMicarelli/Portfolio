@@ -33,7 +33,7 @@ const PostDetail = () => {
     };
 
     const handleShare = () => {
-        const url = `${window.location.origin}/p/${id}`;
+        const url = `${window.location.origin}${import.meta.env.BASE_URL}p/${id}`;
         navigator.clipboard.writeText(url).then(() => {
             toast(language === "pt" ? "Link copiado!" : "Link copied!");
         });
